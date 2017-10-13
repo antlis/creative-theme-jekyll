@@ -353,10 +353,17 @@ body {
 #portfolio {
   background: #f3f4f8;
   padding-bottom: 120px;
+  @media screen and (max-width: 700px) {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
 }
 
 #services {
   padding-bottom: 200px;
+  @media screen and (max-width: 700px) {
+    padding-bottom: 50px;
+  }
 }
 
 .price-block {
@@ -376,6 +383,10 @@ body {
     border-radius: 3px;
     position: relative;
     padding-bottom: 80px;
+    @media screen and (max-width: 700px) {
+      display: block;
+      margin: 20px auto 0 auto;
+    }
 }
 
 .price-block h4 {
@@ -430,6 +441,9 @@ strong {
 .pricing-container {
   display: flex;
   justify-content: center;
+  @media screen and (max-width: 700px) {
+    display: block;
+  }
 }
 
 .price-block .revenue {
@@ -504,16 +518,27 @@ strong {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  @media screen and (max-width: 700px) {
+    display: block;
+  }
 }
 
 .contact-block {
   width: 49%;
   position: relative;
+  @media screen and (max-width: 700px) {
+    margin: auto;
+  }
 }
 
 .contact-block textarea {
   position: absolute;
   top: 0; bottom: 0; right: 0; left: 0;
+  min-height: 200px;
+  @media screen and (max-width: 700px) {
+    position: static;
+    margin-top: 20px;
+  }
 }
 
 .contact-block-inputs {
