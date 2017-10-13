@@ -406,7 +406,8 @@ body {
     margin: 0 auto;
     min-height: 115px;
     font-size: 44px;
-    border-left: 8px solid #9da5af;
+    // border-left: 8px solid #9da5af;
+    border-left: 8px solid #F05F40;
 }
 
 .price-block .desc {
@@ -471,8 +472,10 @@ strong {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  background-color: #3e70ff;
-  background: linear-gradient(#2083fe,#1d7bf0);
+  // background-color: #3e70ff;
+  background-color: #F05F40;
+  // background: linear-gradient(#2083fe,#1d7bf0);
+  background: linear-gradient(#F05F40, #f06439);
   border-radius: 3px;
   transition-duration: 0.2s;
   transition-property: all;
